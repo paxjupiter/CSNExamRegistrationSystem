@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <title>Registration Confirmation</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="scripts/registration-confirmation.js" defer></script>
+</head>
+<body>
+  <div class="header">
+    <div class="title-wrapper">
+      <img src="images/CSNLogo.png" alt="CSN Logo" class="logo" />
+      <h1>Exam Registration System</h1>
+    </div>
+    <a href="index.html" class="btn logout">Logout</a>
+  </div>
+  
+  <div class="page-wrapper">
+    <main class="confirmation-box">
+      <h2>Registration Confirmed</h2>
+      <div class="confirmation-details">
+        <p><strong>Campus:</strong> <span id="confirm-campus"></span></p>
+        <p><strong>Exam:</strong> <span id="confirm-exam"></span></p>
+        <p><strong>Date:</strong> <span id="confirm-date"></span></p>
+        <p><strong>Time:</strong> <span id="confirm-time"></span></p>
+        <p><strong>Proctor:</strong> <span id="confirm-proctor"></span></p>
+        <p><strong>Building:</strong> <span id="confirm-building"></span></p>
+        <p><strong>Room:</strong> <span id="confirm-room"></span></p>
+      </div>
+
+      <a href="student-dashboard.html" class="btn" id="confirmation-button">Back to Dashboard</a>
+    </main>
+  </div>
+</body>
+</html>
+

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Exam Registration System</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="../FrontEnd/styles.css" />
+</head>
+    <body>
+        <div class="page-wrapper">
+            <header class="header">
+                <div class="title-wrapper">
+                    <img src="../FrontEnd/images/CSNLogo.png" alt="College of Southern Nevada Logo" class="logo" />
+                    <h1>Exam Registration System</h1>
+                </div>
+                </header>
+
+                <div class="student-instructions">
+                    <h2 style="text-align: center;">About This System</h2>
+                    <p>The Exam Registration System (ERS) is a full-stack application built to streamline exam scheduling and reporting for students and faculty at the College of Southern Nevada.</p>
+                    <p>ERS features a clean front-end interface built with HTML, CSS, and vanilla JavaScript. It communicates with a Python-based Flask backend that connects to a MySQL relational database, supporting dynamic session data, user authentication, and real-time report filtering.</p>
+                    <p>Students can register for exams through an accessible, keyboard-free form, while faculty can log in to generate live reports by exam, date, or location. Passwords are hashed using <code>bcrypt</code>, and all database interactions use parameterized queries to protect against SQL injection.</p>
+                </div>
+
+                <div class="student-instructions">
+                <h2 style="text-align: center;">Demo Credentials</h2>
+                <div class="landing-card-container">
+                    <p><strong>Student (Chad Johnson):</strong> 7935545372@student.csn.edu / 7935545372</p>
+                    <p><strong>Faculty (Sarah Garcia):</strong> sarah.garcia@csn.edu / Teach123!</p>
+                    <p class="error-msg" style="display: block;"><em>Note: The backend must be running for login and exam data to function properly.<br> See README.md for full installation instructions.</em></p>
+                    </div>
+                </div>
+
+                <div class="button-group">
+                <a href="../FrontEnd/index.html" class="register-btn">Launch the App</a>
+                <a href="https://github.com/yourusername/ExamRegistrationSystem" class="view-exams-btn" target="_blank">View Source on GitHub</a>
+                </div>
+
+                <div class="student-instructions">
+                <h2 style="text-align: center;">Screenshots</h2>
+                <div class="landing-card-container">
+                    <img src="screenshots/login-screen.png" alt="Login Screen" class="exam-card" />
+                    <img src="screenshots/student-dashboard.png" alt="Student Dashboard" class="exam-card" />
+                    <img src="screenshots/report-by-location.png" alt="Faculty Report" class="exam-card" />
+                    <!-- Add more as needed -->
+                </div>
+                </div>
+                <footer>
+                    <p>Developed by Aiden Montoro (Cryptid)<img src="assets/cryptid_icon.gif" alt="Cryptid icon" class="footer-icon"/></p>
+                    <p>Email: <a href="mailto:cryptidwebdev@gmail.com">cryptidwebdev@gmail.com</a></p>
+                </footer>
+            </div>
+    </body>
+</html>

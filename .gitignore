@@ -1,0 +1,27 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# VS Code stuff
+.vscode/
+
+# Virtual environments
+venv/
+
+# DB dumps or sensitive SQL you don't wanna share
+*.sql
+!create_exam_db.sql
+
+# OS crap
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node stuff (if ever added)
+node_modules/
+
+# Env files / secrets
+.env

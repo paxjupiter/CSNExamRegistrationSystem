@@ -1,0 +1,41 @@
+<!-- faculty-dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <title>Faculty Dashboard</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="header">
+    <div class="title-wrapper">
+      <img src="images/CSNLogo.png" alt="CSN Logo" class="logo" />
+      <h1>Exam Registration System</h1>
+    </div>
+    <a href="index.html" class="btn logout">Logout</a>
+  </div>
+  
+  <div class="page-wrapper">
+    <main class="dashboard">
+      <h2>Welcome, <span id="faculty-name">[Faculty Name]</span></h2>
+
+      <div class="faculty-instructions">
+        <p>Use the buttons below to generate an exam report by exam, date, or location.</p>
+        <p>You will only see exams for which you are assigned as the proctor.</p>
+        <p>Each report will be available for download in CSV format.</p>
+      </div>
+
+      <div class="button-group">
+        <a href="report-by-exam.html" class="btn">Report by Exam</a>
+        <a href="report-by-date.html" class="btn">Report by Date</a>
+        <a href="report-by-location.html" class="btn">Report by Location</a>
+      </div>
+    </main>
+  </div>
+  <script src="scripts/faculty-dashboard.js"></script>
+</body>
+</html>

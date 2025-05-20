@@ -1,0 +1,70 @@
+<!--exam-registration.html-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <title>Exam Registration</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+  <body>
+    <div class="header">
+      <div class="title-wrapper">
+        <img src="images/CSNLogo.png" alt="CSN Logo" class="logo" />
+        <h1>Exam Registration System</h1>
+      </div>
+      <a href="index.html" class="btn logout">Logout</a>
+    </div>
+    
+    <div class="page-wrapper">
+      <main class="registration-form">
+        <h2>Exam Registration Page</h2>
+        
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" disabled />
+
+          <input type="hidden" id="nshe" />
+          <input type="hidden" id="email" />
+
+          <label for="campus">Campus:</label>
+          <select id="campus">
+            <option value="" disabled selected hidden>Select Your Campus</option>
+          </select>
+          
+          <label for="exam">Exam:</label>
+          <select id="exam" disabled>
+            <option value="" disabled selected hidden>Select Your Exam</option>
+          </select>
+          
+          <label for="date">Date:</label>
+          <select id="date" disabled>
+            <option value="" disabled selected hidden>Select a Date</option>
+          </select>
+          
+          <label for="time">Time:</label>
+          <select id="time" disabled>
+            <option value="" disabled selected hidden>Select a Time</option>
+          </select>
+          
+          <label for="proctor">Proctor:</label>
+          <select id="proctor" disabled>
+            <option value="" disabled selected hidden>Proctor(s) Will Appear Here</option>
+          </select>
+          
+          <p class="seat-warning">XX seats remaining for this test – Register now!</p>
+          
+          <button type="submit" class="btn">Submit Registration</button>
+          <a href="student-dashboard.html" class="btn">Back to Dashboard</a>
+        </form>
+      </main>
+    </div>
+    <script src="scripts/exam-registration.js"></script>
+  </body>
+</html>
+  
