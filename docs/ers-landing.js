@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", () => {
     },
     {
       src: "screenshots/faculty-dashboard.png",
-      caption: "Faculty have their own UI with a report-generation tools.",
+      caption: "Faculty have their own UI with report-generation tools.",
     },
     {
       src: "screenshots/report-by-exam.png",
